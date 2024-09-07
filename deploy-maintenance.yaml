@@ -48,7 +48,7 @@ spec:
         - name: registry-secret
       containers:
       - name: maintenance
-        image: registry.gitlab.com/aimhighergg/docker-registry/
+        image: registry.gitlab.com/aimhighergg/docker-registry/maintenance
         imagePullPolicy: Always
         resources:
           limits:
